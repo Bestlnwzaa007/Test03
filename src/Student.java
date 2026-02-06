@@ -6,7 +6,7 @@ public class Student {
     public void showInfo(){
         System.out.println("ID: "+ id);
         System.out.println("Name: "+ name);
-        System.out.println("GPA (maruay): "+ gpa);
+        System.out.println("GPA (maraq obama): "+ gpa);
     }
 
     public boolean isExcellent() {
