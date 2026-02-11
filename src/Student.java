@@ -7,6 +7,7 @@ public class Student {
         System.out.println("ID: "+ id);
         System.out.println("Name: "+ name);
         System.out.println("GTOA (maraq obama): "+ gtaV);
+        System.out.println("Gu ma Law Nong");
     }
 
     public boolean isExcellent() {
