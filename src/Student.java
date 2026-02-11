@@ -10,6 +10,8 @@ public class Student {
         System.out.println("Gu ma Law Nong");
         System.out.println("Gu Pen Gay Nika niaka");
         kuyyyyyyyy
+
+        deaw pen gay
     }
 
     public boolean isExcellent() {
