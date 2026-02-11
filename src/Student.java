@@ -1,21 +1,31 @@
 public class Student {
-    String id;
-    String name;
-    double gpa;
+    private String name;
+    private int score;
+    private String grade;
 
-    public void showInfo(){
-        System.out.println("ID: "+ id);
-        System.out.println("Name: "+ name);
-        System.out.println("GTOA (maraq obama): "+ gtaV);
-        System.out.println("Gu ma Law Nong");
-        System.out.println("Gu Pen Gay Nika niaka");
-        kuyyyyyyyy
-
-        deaw pen gay
+    public Student(String name, int score) {
+        this.name = name;
+        this.score = score;
+        this.grade = calculateGrade(score);
     }
 
-    public boolean isExcellent() {
-        return gpa >= 3.50;
-        }
-    
+    private String calculateGrade(int score) {
+        if (score >= 80) return "A";
+        else if (score >= 70) return "B";
+        else if (score >= 60) return "C";
+        else if (score >= 50) return "D";
+        else return "F";
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getScore() {
+        return score;
+    }
+
+    public String getGrade() {
+        return grade;
+    }
 }
