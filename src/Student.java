@@ -9,6 +9,7 @@ public class Student {
         System.out.println("GTOA (maraq obama): "+ gtaV);
         System.out.println("Gu ma Law Nong");
         System.out.println("Gu Pen Gay Nika niaka");
+        kuyyyyyyyy
     }
 
     public boolean isExcellent() {
